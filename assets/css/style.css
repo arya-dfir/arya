@@ -1178,3 +1178,13 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/* Force resume section into two columns */
+.resume .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume .col-lg-6 {
+    width: 50%;
+}
